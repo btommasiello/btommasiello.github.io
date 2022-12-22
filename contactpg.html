@@ -50,7 +50,7 @@
         }
 
         img {
-            width: 40%;
+            width: 20%;
         }
 
         li {
@@ -113,7 +113,7 @@
         .itemname {
             text-align: center;
             font-family: 'Orbitron', sans-serif;
-            font-size: 10pt;
+            font-size: 8pt;
         }
 
         .contactbottom {
@@ -130,6 +130,24 @@
             font-family: 'Orbitron', sans-serif;
             text-align: center;
             padding-top: 40px;
+        }
+
+        .price {
+            font-size: 8pt;
+        }
+
+        @media only screen and (min-width: 768px) {
+            img {
+                width: 40%;
+            }
+
+            .itemname {
+                font-size: 10pt;
+            }
+
+            .price {
+                font-size: 10pt;
+            }
         }
     </style>
 </head>
@@ -185,13 +203,16 @@
         <div class="container">
             <div class="row">
                 <div class="imgbox col-6 col-md-4"><img class="shoes" src="blackredyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy 700 'Core Black'</p>$280.00
+                    <p class="itemname">Adidas Yeezy 700 'Core Black'</p>
+                    <p class="price">$280.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="shoes" src="salmonyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Ash Pearl'</p>$280.00
+                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Ash Pearl'</p>
+                    <p class="price">$280.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="shoes" src="clearyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Mono Ice'</p>$310.00
+                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Mono Ice'</p>
+                    <p class="price">$310.00</p>
                 </div>
             </div>
         </div>

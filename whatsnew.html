@@ -98,12 +98,15 @@
             padding-top: 40px;
         }
 
-        .redblack {
-            padding-bottom: 10px;
-            padding-top: 120px;
+        .itemname {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 10pt;
         }
-        
-        .sneakers{
+
+
+
+        .sneakers {
             padding-top: 120px;
         }
 
@@ -111,6 +114,27 @@
         .contact {
             color: orangered;
             font-weight: bolder;
+        }
+
+        .price {
+            font-size: 10pt;
+        }
+
+
+        @media only screen and (min-width: 768px) {
+            .redblack {
+                padding-bottom: 10px;
+                padding-top: 120px;
+            }
+
+            .itemname {
+                font-size: 12pt;
+            }
+
+            .price {
+                font-size: 12pt;
+            }
+
         }
     </style>
 </head>
@@ -162,25 +186,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4"><img src="babybluedunks.jpg">
-                    <p class="itemname">Nike Dunk Low Coast</p>$380.00
+                    <p class="itemname">Nike Dunk Low Coast</p>
+                    <p class="price">$380.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img src="colorfuldunks.jpg">
-                    <p class="itemname">Nike Dunk Low Free 99 White</p>$130.00
+                    <p class="itemname">Nike Dunk Low Free 99 White</p>
+                    <p class="price">$130.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img src="yellowlowdunks.jpg">
-                    <p class="itemname">Nike Dunk Low Strike Yellow</p>$145.00
+                    <p class="itemname">Nike Dunk Low Strike Yellow</p>
+                    <p class="price">$145.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="redblack" src="blackredyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy 700 'Core Black'</p>$280.00
+                    <p class="itemname">Adidas Yeezy 700 'Core Black'</p>
+                    <p class="price">$280.00</p>
                 </div>
                 <div class="col-6 col-md-4"><img class="sneakers" src="eastercandydunks.jpg">
-                    <p class="itemname">Nike Dunk Low SE Easter Candy</p>$180.00
+                    <p class="itemname">Nike Dunk Low SE Easter Candy</p>
+                    <p class="price">$180.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="sneakers" src="darkbluedunks.jpg">
-                    <p class="itemname">Nike Dunk Low Retro Hyper Cobalt</p>$225.00
+                    <p class="itemname">Nike Dunk Low Retro Hyper Cobalt</p>
+                    <p class="price">$225.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="sneakers" src="blacksuedeyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy 700 'Mauve'</p>$230.00
+                    <p class="itemname">Adidas Yeezy 700 'Mauve'</p>
+                    <p class="price">$230.00</p>
                 </div>
             </div>
         </div>

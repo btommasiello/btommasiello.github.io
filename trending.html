@@ -95,13 +95,6 @@
             text-align: center;
         }
 
-
-        .new {
-            font-family: 'Orbitron', sans-serif;
-            text-align: center;
-            padding-top: 50px;
-        }
-
         .contact {
             color: orangered;
             font-weight: bolder;
@@ -118,11 +111,36 @@
             text-align: center;
             padding-top: 70px;
         }
-        
-        .sneakers{
+
+        .orgblk {
             padding-top: 120px;
         }
-        
+
+        .itemname {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 10pt;
+        }
+
+        .price {
+            font-size: 10pt;
+        }
+
+        @media only screen and (min-width: 768px) {
+
+            .sneakers {
+                padding-top: 120px;
+            }
+
+            .itemname {
+                font-size: 12pt;
+            }
+
+            .price {
+                font-size: 12pt;
+            }
+
+        }
     </style>
 </head>
 
@@ -173,22 +191,24 @@
         <div class="container">
             <div class="row">
                 <div class="imgbox col-6 col-md-4"><img src="taupesuedeyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy 500 'Taupe Light'</p>$260.00
+                    <p class="itemname">Adidas Yeezy 500 'Taupe Light'</p>
+                    <p class="price">$260.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img src="salmonyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Ash Pearl'</p>$280.00
+                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Ash Pearl'</p>
+                    <p class="price">$280.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img src="clearyeezy.jpg">
-                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Mono Ice'</p>$310.00
+                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Mono Ice'</p>
+                    <p class="price">$310.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="sneakers" src="lightbluejordans.jpg">
-                    <p class="itemname">Jordan 4 Retro University Blue</p>$350.00
-                </div>
-                <div class="col-6 col-md-4"><img class="sneakers" src="orangeblkjordans.jpg">
-                    <p class="itemname">Jordan 1 Retro High Electro Orange</p>$210.00
+                    <p class="itemname">Jordan 4 Retro University Blue</p>
+                    <p class="price">$350.00</p>
                 </div>
                 <div class="imgbox col-6 col-md-4"><img class="offwhite" src="greenoffwhite.jpg">
-                    <p class="itemname">Nike Air Dunk Off-White Green Strike</p>$430.00
+                    <p class="itemname">Nike Air Dunk Off-White Green Strike</p>
+                    <p class="price">$430.00</p>
                 </div>
             </div>
         </div>
