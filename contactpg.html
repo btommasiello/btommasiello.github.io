@@ -7,7 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 
 
     <style>
@@ -17,7 +20,7 @@
 
         .navbar-brand {
             color: orangered;
-            font-size: 40pt;
+            font-size: 30pt;
             font-family: 'Orbitron', sans-serif;
             text-transform: uppercase;
             font-weight: bold;
@@ -29,6 +32,7 @@
             font-family: 'Orbitron', sans-serif;
             text-transform: uppercase;
             font-weight: bold;
+            font-size: 8pt;
         }
 
         .navbar-toggler {
@@ -39,73 +43,99 @@
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orangered\' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
         }
-        
+
         nav {
-           text-align: right;
+            text-align: right;
             padding-bottom: 10px;
         }
-        
-        img {width: 60%;}
-        
-          li {
-            text-align: center;
-            list-style-type: none;
+
+        img {
+            width: 40%;
         }
-        
-        .subcaption{
-            font-family: 'Orbitron', sans-serif;
+
+        li {
             text-align: center;
-            padding-top: 20px;
         }
-        
-         .caption{
-            font-family: 'Orbitron', sans-serif;
+
+        .subcaption {
+            font-family: 'Roboto', sans-serif;
             text-align: center;
             padding-top: 20px;
             font-weight: bold;
+            font-size: 15pt;
         }
-        
-        footer {
-            background-color: whitesmoke;
-            font-family: 'Orbitron', sans-serif;
+
+        .caption {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding-top: 20px;
+            font-weight: bold;
+            font-size: 15pt;
         }
-        
-        .contact{
+
+
+
+        .contact {
             color: orangered;
             font-weight: bolder;
         }
-        
-        .socialmedia{
-            width: 80px;
-            padding-right: 40px;
+
+        footer {
+            background-color: whitesmoke;
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            align-items: baseline;
         }
-        
-        .disclosure{
+
+        .socialmedia {
+            width: 60px;
+            padding: 0;
+            padding-right: 20px;
+        }
+
+        .disclosure {
+            font-size: 10pt;
+            flex: 1;
+            padding-left: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+        .info {
+            font-size: 10pt;
+            font-weight: bold;
+            flex: 1;
+        }
+
+
+        .itemname {
             text-align: center;
+            font-family: 'Orbitron', sans-serif;
             font-size: 10pt;
         }
-        
-         .info {
-            text-align: center;
-            font-size: 20pt;
-            padding-top: 10px;
-        }
-          .itemname{
-        text-align: center;
-        font-family: 'Orbitron', sans-serif;
-            font-size: 10pt;
-    }
-        .contactbottom{
+
+        .contactbottom {
             font-family: 'Orbitron', sans-serif;
             text-align: center;
             font-size: 10pt;
         }
-        
+
+        .shoes {
+            padding-bottom: 10px;
+        }
+
+        .contactpg {
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding-top: 40px;
+        }
     </style>
-    </head>
-    
-    <body>
-        <nav class="navbar navbar-expand-lg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">TMK Soles</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,32 +172,37 @@
             </nav>
         </div>
     </nav>
-        <div class="subcaption">Sizes vary. See something you like? Contact us through Instagram or email!</div>
-         <div class="caption">Instagram: @tmksoles</div>
-              <div class="caption">Email: sales@tmksoles.com</div>
 
+    <section id="contactus" class="contactpg">
+        <h2>Contact Us!</h2>
         <hr>
-        <section id="contbottom" class="contactbottom">
+        <div class="subcaption">Sizes vary. See something you like? Contact us through Instagram or email!</div>
+        <div class="caption">Instagram: @tmksoles</div>
+        <div class="caption">Email: sales@tmksoles.com</div>
+    </section>
+    <hr>
+    <section id="contbottom" class="contactbottom">
         <div class="container">
-    <div class="row">
-          <div class="imgbox col-6 col-md-4"><img src="tealjordans.jpg">
-            <p class="itemname">Air Jordan Retro 7 "Barcelona Days"</p>$280.00</div>
-        <div class="imgbox col-6 col-md-4"><img src="salmonpinkyeezy.jpg">
-            <p class="itemname">Adidas Yeezy Boost 350 V2 'Ash Pearl'</p>$280.00</div>
-        <div class="imgbox col-6 col-md-4"><img src="redblacknike.jpg">
-            <p class="itemname">Jordan 1 Retro AJKO Chicago</p>$210.00</div>
+            <div class="row">
+                <div class="imgbox col-6 col-md-4"><img class="shoes" src="blackredyeezy.jpg">
+                    <p class="itemname">Adidas Yeezy 700 'Core Black'</p>$280.00
+                </div>
+                <div class="imgbox col-6 col-md-4"><img class="shoes" src="salmonyeezy.jpg">
+                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Ash Pearl'</p>$280.00
+                </div>
+                <div class="imgbox col-6 col-md-4"><img class="shoes" src="clearyeezy.jpg">
+                    <p class="itemname">Adidas Yeezy Boost 350 V2 'Mono Ice'</p>$310.00
+                </div>
             </div>
         </div>
-        </section>
+    </section>
 
     <footer>
-        <div class="info">NEED IT?
-            <a href="contactpg.html" class="contact">Contact Us!</a></div>
         <div class="disclosure">DISCLOSURE: All sales are final</div>
-        <nav>
-            <a href="https://www.instagram.com/tmksoles/?hl=en"><img class="socialmedia" src="insta_y.png"></a>
-        </nav>
-
+        <div class="info">NEED IT?
+            <a href="contactpg.html" class="contact">Contact Us!</a>
+        </div>
+        <a href="https://www.instagram.com/tmksoles/?hl=en"><img class="socialmedia" src="insta_y.png"></a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
